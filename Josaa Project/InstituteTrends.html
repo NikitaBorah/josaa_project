@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institute Trends</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+        <img class="logo" src="./logo.png">
+        <p class="header-text">JoSAA Data Analysis Portal</p>
+         <nav>
+             <ul class="nav_links">
+                 <li><a href="./FilterbyInstitute.html">Filter By Institute</a></li>
+                 <li><a href="./FilterbyProgram.html">Filter By Program</a></li>
+                 <li><a href="./InstituteTrends.html">Institute Trends</a></li>
+                 <li><a href="./ProgramTrends.html">Program Trends</a></li>
+                 <li><a href="./FieldTrends.html">Field Trends</a></li>
+                 <li><a href="#">Round Trends</a></li>
+             </ul>
+         </nav>
+     </div>  
+<div class="container">
+    <h2>Filter by Institute</h2>
+    <p class="container-text">Comparing the cut-offs of various courses offered by an institute over last few years in the JoSAA seat allotment process helps us understand the popularity and perception of programs offered by the institute, and thus helps the demand for a particular program in the institute during counselling.</p>
+    <div class="main-content">
+        <h3>Institute Name</h3>
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="Indian Institute of Technology Bombay"
+              name="category"
+            />
+            <label for="Indian Institute of Technology Bombay">Indian Institute of Technology Bombay</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Delhi" name="category" />
+            <label for="Indian Institute of Technology Delhi">Indian Institute of Technology Delhi</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Madras" name="category" />
+            <label for="Indian Institute of Technology Madras">Indian Institute of Technology Madras</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Kanpur" name="category" />
+            <label for="Indian Institute of Technology Kanpur">Indian Institute of Technology Kanpur</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Roorkee" name="category" />
+            <label for="Indian Institute of Technology Roorkee">Indian Institute of Technology Roorkee</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Kharagpur" name="category" />
+            <label for="Indian Institute of Technology Kharagpur">Indian Institute of Technology Kharagpur</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Guwahati" name="category" />
+            <label for="Indian Institute of Technology Guwahati">Indian Institute of Technology Guwahati</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Indian Institute of Technology Hyderabad" name="category" />
+            <label for="Indian Institute of Technology Hyderabad">Indian Institute of Technology Hyderabad</label>
+          </div>
+        </div>
+
+        <div class="selected">
+          Select Institute
+        </div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Start Typing..." />
+        </div>
+      </div>
+
+      <h3>Seat Type</h3>
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="OPEN"
+              name="category"
+            />
+            <label for="OPEN">OPEN</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="OBC NCL" name="category" />
+            <label for="OBC NCL">OBC NCL</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="SC" name="category" />
+            <label for="SC">SC</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="ST" name="category" />
+            <label for="ST">ST</label>
+          </div>
+        </div>
+
+        <div class="selected">
+          Select Seat Type
+        </div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Start Typing..." />
+        </div>
+      </div>
+
+      <h3>Gender</h3>
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="radio"
+              class="radio"
+              id="Gender Neutral"
+              name="category"
+            />
+            <label for="Gender Neutral">Gender Neutral</label>
+          </div>
+
+          <div class="option">
+            <input type="radio" class="radio" id="Female Only" name="category" />
+            <label for="Female Only">Female Only</label>
+          </div>
+        </div>
+
+        <div class="selected">
+          Select Gender
+        </div>
+
+        <div class="search-box">
+          <input type="text" placeholder="Start Typing..." />
+        </div>
+      </div>
+    </div>
+</div>
+<script src="./dropdown.js"></script>
+</body>
+</html>
